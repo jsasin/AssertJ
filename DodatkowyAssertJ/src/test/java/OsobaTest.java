@@ -87,5 +87,11 @@ public class OsobaTest {
     }
 
 
+    //użycie własnego matchera, przechodzi dla praca druga i trzecia, dla pierwszej nie
+    @Test
+    public void checkminimumPlaca(){
+        MojaAsercja.assertThat(druga).pensjaMinimum();
+    }
+
 
 }
